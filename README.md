@@ -1,4 +1,24 @@
+# Marlin for modified Anet A8
+The legendary Marlin firmware for use on and configuration of my own 3D-printer.
+
+The original source of the Marlin software: https://github.com/MarlinFirmware/Marlin
+
+Licenses of the repository above apply.
+
+The sole purpose of this repository is to keep track of the configuration for my 3D-printer.
+
+Upgrades on my printer:
+- Aluminum extrusions (AM8)
+- Chinesium bl touch
+- Ramps 1.4
+- New motordrivers
+- And probably a lot more
+
+Cheers!
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
+
+# Marlin 3D Printer Firmware
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
 
