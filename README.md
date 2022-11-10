@@ -16,6 +16,16 @@ Upgrades on my printer:
 
 Cheers!
 
+### Building:
+- Install vs-code, platformIO extension and Auto build marlin extension. Press build, profit.
+- Install platformIO extension, press the build button in the bottom left.
+- Probably command "platformio run -e mega2560".
+
+### Uploading:
+- If built with previous step, press upload.
+- Install platformIO extension, press the upload button in the bottom left.
+- Probably command "platformio run --target upload -e mega2560".
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 # Marlin 3D Printer Firmware
