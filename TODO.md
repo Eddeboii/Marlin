@@ -1,5 +1,13 @@
-#Things to doublecheck:
+# Things to doublecheck:
+## Started:
 - DEFAULT_AXIS_STEPS_PER_UNIT: Standard values are { 80, 80, 400, 500 }
+  - X-axis: OK
+  - Y-axis: OK
+  - Z-axis:
+  - E-axis:
+- X-axis and Y-axis are not centering in the middle of the bed.
+
+## To come:
 - CLASSIC_JERK: Was used in previous version I think
 - PROBING_MARGIN: Previusly used 0, why?
 - PREHEAT_1_FAN_SPEED: Idk what pwm my PLA wants.
