@@ -3,8 +3,8 @@
 - DEFAULT_AXIS_STEPS_PER_UNIT: Standard values are { 80, 80, 400, 500 }
   - X-axis: OK
   - Y-axis: OK
-  - Z-axis:
-  - E-axis:
+  - Z-axis: OK
+  - E-axis: OK
 - X-axis and Y-axis are not centering in the middle of the bed.
 
 ## To come:
