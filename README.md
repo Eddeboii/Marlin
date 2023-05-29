@@ -17,7 +17,7 @@ Upgrades on my printer:
 Cheers!
 
 ### Building:
-- Install vs-code, platformIO extension and Auto build marlin extension. Press build, profit.
+- Install vs-code, platformIO extension and Auto build marlin extension. Press build for 2560, profit.
 - Install platformIO extension, press the build button in the bottom left.
 - Probably command "platformio run -e mega2560".
 

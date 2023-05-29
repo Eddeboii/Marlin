@@ -6,6 +6,7 @@
   - Z-axis: OK
   - E-axis: OK
 - X-axis and Y-axis are not centering in the middle of the bed.
+- Solder hotend fan cables
 
 ## To come:
 - CLASSIC_JERK: Was used in previous version I think

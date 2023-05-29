@@ -1416,7 +1416,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { +40, -5, -2 }
+#define NOZZLE_TO_PROBE_OFFSET { +40, -5, -3 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1616,10 +1616,10 @@
 
 // The size of the printable area
 #define X_BED_SIZE 220
-#define Y_BED_SIZE 220
+#define Y_BED_SIZE 207
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -51
+#define X_MIN_POS -14
 #define Y_MIN_POS -12
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE+40
@@ -2388,7 +2388,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
