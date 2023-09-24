@@ -1615,14 +1615,14 @@
 // @section machine
 
 // The size of the printable area
-#define X_BED_SIZE 220
+#define X_BED_SIZE 206
 #define Y_BED_SIZE 207
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -14
 #define Y_MIN_POS -12
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE+40
+#define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 220
 //#define I_MIN_POS 0
@@ -2348,7 +2348,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
